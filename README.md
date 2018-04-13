@@ -1,3 +1,8 @@
+## Install git lfs before clone
+
+   sudo dnf install git-lfs
+   git clone https://github.com/h908714124/hello-mnist-official.git
+
 ## Install dependencies
 
     pip --user install pillow
