@@ -6,7 +6,10 @@
 
     python mnist.py --train_epochs=20
 
-Use train_epochs=40 for greater accuracy.
+Use `--train_epochs=40` for greater accuracy, or `--train_epochs=1` for speed.
+
+Try `--model_dir=/tmp/some_unused_path` if there's an unexpected exception,
+or delete the current `model_dir` (defaults to `/tmp/mnist_model`).
 
 ## Predicting
 

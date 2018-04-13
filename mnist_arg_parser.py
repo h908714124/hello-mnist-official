@@ -15,6 +15,6 @@ class MNISTArgParser(argparse.ArgumentParser):
     self.set_defaults(
       export_dir='trained_model',
       data_dir='mnist_data',
-      model_dir='/tmp/mnist_model2',
+      model_dir='/tmp/mnist_model',
       batch_size=100,
       train_epochs=10)
