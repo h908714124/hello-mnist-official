@@ -1,6 +1,7 @@
 .idea
 *.iml
 *.png
+*.pyc
 /mnist
 /data
 /trained_model
