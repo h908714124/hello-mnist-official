@@ -4,6 +4,7 @@
 
 ## Running
 
+    rm -rf /tmp/mnist_model
     python mnist.py --train_epochs=20
 
 Use `--train_epochs=40` for greater accuracy, or `--train_epochs=1` for speed.
