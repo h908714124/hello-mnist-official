@@ -5,7 +5,7 @@
 
 ## Install dependencies
 
-    pip --user install pillow
+    pip install --user pillow
 
 ## Running
 
